@@ -10,11 +10,6 @@ $(document).ready(function() {
         }
     });
 
-    $('#month-box li').click(function() {
-        $('#console-box').text($(this).text());
-        $(this).toggleClass('selected').siblings().removeClass('selected');;
-    });
-
 
 });
 
