@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cumbie's Super Terrific Duper Awesome Side Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./../css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <li>
+                <a class="navbar-brand" href="#">Cumbie Super Duper Terrific  Awesome Side Project</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./../index.html">Cumbie's Web Dev Profile (Home)</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://github.com/barrycumbie/cumbie-summer-2021">See the Code</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbarrycumbie.github.io%2Fcumbie-summer-2021%2Fpages%2Fcumbie-super-duper-awesome-side-project.html">Check this page's validity</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-md-2 col-md-8">
+                <h1 class="solid-bg">A Better Drop Down Selector</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+
+                <ul class="nav nav-tabs">
+                    <li class="nav-item solid-bg">
+                        <a class="nav-link active" data-toggle="tab" href="#about">About CSDTASP</a>
+                    </li>
+                    <li class="nav-item solid-bg">
+                        <a class="nav-link" data-toggle="tab" href="#old-way">The Old Way</a>
+                    </li>
+                    <li class="nav-item solid-bg">
+                        <a class="nav-link" data-toggle="tab" href="#better-way">The Better Way</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 mx-auto tab-content">
+                <div class="tab-pane active container-fluid card" id="about">
+                    <div class="card-body">
+                        <h4 class="card-title">About...
+                        </h4>
+                        <p class="card-text">Something here</p>
+
+                        <ul>
+                            <li> <a href="https://github.com/barrycumbie/cumbie-summer-2021/issues/1#issue-945658675
+                              " target="_blank" class="card-link">Link to GitHub REPO Issue Card</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="tab-pane container-fluid card" id="old-way">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Old Way...just try to make your browser window a little shorter and then put this window on the bottom of your screen and pick December as your month...
+                            </h4>
+                            <p class="card-text">
+                                <form class="credit-card">
+                                    <div class="form-header">
+                                        <h4 class="title">Credit card detail</h4>
+                                    </div>
+
+                                    <div class="form-body">
+                                        <!-- Card Number -->
+                                        <input type="text" class="card-number" placeholder="Card Number">
+
+                                        <!-- Date Field -->
+                                        <div class="date-field">
+                                            <div class="month">
+                                                <select name="Month">
+                                        <option value="january">January</option>
+                                        <option value="february">February</option>
+                                        <option value="march">March</option>
+                                        <option value="april">April</option>
+                                        <option value="may">May</option>
+                                        <option value="june">June</option>
+                                        <option value="july">July</option>
+                                        <option value="august">August</option>
+                                        <option value="september">September</option>
+                                        <option value="october">October</option>
+                                        <option value="november">November</option>
+                                        <option value="december">December</option>
+                                      </select>
+                                            </div>
+                                            <div class="year">
+                                                <select name="Year">
+                                        <option value="2021">2021</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2023">2023</option>
+                                        <option value="2024">2024</option>
+                                        <option value="2024">2025</option>
+                                        <option value="2024">2026</option>
+                                      </select>
+                                            </div>
+                                        </div>
+
+                                        <!-- Card Verification Field -->
+                                        <div class="card-verification">
+                                            <div class="cvv-input">
+                                                <input type="text" placeholder="CVV">
+                                            </div>
+                                            <div class="cvv-details">
+                                                <p>3 or 4 digits usually found <br> on the signature strip</p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Buttons -->
+                                        <button type="submit" class="proceed-btn"><a href="#">Proceed</a></button>
+                                        <button type="submit" class="paypal-btn"><a href="#">Pay With</a></button>
+                                    </div>
+                                </form>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane container-fluid card" id="better-way">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Here's the better way
+                            </h4>
+                            <p class="card-text">...</p>
+                            <form class="credit-card">
+                                <div class="form-header">
+                                    <h4 class="title">Credit card detail</h4>
+                                </div>
+
+                                <div class="form-body">
+                                    <!-- Card Number -->
+                                    <input type="text" class="card-number" placeholder="Card Number">
+
+                                    <!-- Date Field -->
+                                    <div class="date-field">
+                                        <div id="console-box">
+                                        </div>
+                                        <div id="month-box" class="month">
+                                            <ul class="tumbly-month">
+                                                <li class="month-box">JAN</li>
+                                                <li class="month-box">FEB</li>
+                                                <li class="month-box">MAR</li>
+                                                <li class="month-box">APR</li>
+                                                <li class="month-box">MAY</li>
+                                                <li class="month-box">JUN</li>
+                                                <li class="month-box">JUL</li>
+                                                <li class="month-box">AUG</li>
+                                                <li class="month-box">SEP</li>
+                                                <li class="month-box">OCT</li>
+                                                <li class="month-box">NOV</li>
+                                                <li class="month-box">DEC</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <div class="year">
+                                        <select name="Year">
+                                  <option value="2021">2021</option>
+                                  <option value="2022">2022</option>
+                                  <option value="2023">2023</option>
+                                  <option value="2024">2024</option>
+                                  <option value="2024">2025</option>
+                                  <option value="2024">2026</option>
+                                </select>
+                                    </div>
+                                </div>
+
+                                <!-- Card Verification Field -->
+                                <div class="card-verification">
+                                    <div class="cvv-input">
+                                        <input type="text" placeholder="CVV">
+                                    </div>
+                                    <div class="cvv-details">
+                                        <p>3 or 4 digits usually found <br> on the signature strip</p>
+                                    </div>
+                                </div>
+
+                                <!-- Buttons -->
+                                <button type="submit" class="proceed-btn"><a href="#">Proceed</a></button>
+                                <button type="submit" class="paypal-btn"><a href="#">Pay With</a></button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <!-- footer goes here  -->
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./../scripts/script.js"></script>
+</body>
+
+</html>
